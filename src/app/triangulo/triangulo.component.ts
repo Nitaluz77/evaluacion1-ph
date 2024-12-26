@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IonCard, IonCardTitle, IonCardHeader, IonCardContent, IonInput, IonContent, 
-  IonText, IonItem, IonLabel, IonButton } from "@ionic/angular/standalone";
+  IonText, IonItem, IonLabel, IonButton, IonImg } from "@ionic/angular/standalone";
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   templateUrl: './triangulo.component.html',
   standalone: true,
   imports: [IonButton, CommonModule, FormsModule, IonCard, IonCardTitle, IonCardHeader, 
-    IonCardContent, IonInput, IonText, IonItem, IonLabel]
+    IonCardContent, IonInput, IonText, IonItem, IonLabel, IonImg]
 
 })
 export class TrianguloComponent {

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IonCard, IonCardTitle, IonCardHeader, IonCardContent, IonInput, IonContent, IonText,
-   IonItem, IonLabel, IonButton } from "@ionic/angular/standalone";
+   IonItem, IonLabel, IonButton, IonImg } from "@ionic/angular/standalone";
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 @Component({
@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./circulo.component.scss'],
   standalone: true,
   imports: [FormsModule, CommonModule, IonButton, IonLabel, IonCardTitle, IonCardHeader, 
-    IonCardContent, IonInput, IonText, IonItem, IonCard]
+    IonCardContent, IonInput, IonText, IonItem, IonCard, IonImg]
 })
 
 export class CirculoComponent {
