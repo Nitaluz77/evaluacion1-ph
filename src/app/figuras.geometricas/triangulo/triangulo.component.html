@@ -1,0 +1,17 @@
+<ion-item>
+      <ion-label>Lado 1</ion-label>
+      <ion-input [(ngModel)]="lado1" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Lado 2</ion-label>
+      <ion-input [(ngModel)]="lado2" type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Lado 3</ion-label>
+      <ion-input [(ngModel)]="lado3" type="number"></ion-input>
+    </ion-item>
+    <ion-button expand="full" (click)="calcular()">Calcular</ion-button>
+    <ion-text *ngIf="resultado !== null">Resultado: {{ resultado }}</ion-text>
+  </ion-card-content>
+</ion-card>
+
